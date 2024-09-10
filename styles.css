@@ -1,0 +1,97 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fef6e4;
+    margin: 0;
+    padding: 20px; 
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px; 
+    max-width: 400px; /* ลดความกว้างสูงสุดลง */
+    margin: auto;
+    border-radius: 12px; /* ลดขอบโค้งลง */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ffccd5;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px; /* ลด margin ลง */
+    color: #e480b2;
+    font-size: 1.8em; /* ลดขนาดฟอนต์ลง */
+    letter-spacing: 0.8px; /* ลด letter-spacing ลง */
+}
+
+.form-group {
+    margin-bottom: 15px; /* ลด margin ลง */
+}
+
+label {
+    display: block;
+    margin-bottom: 6px; /* ลด margin ลง */
+    color: #4d4c7d;
+    font-weight: bold;
+    font-size: 0.9em; /* ลดขนาดฟอนต์ลง */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px; /* ลด padding ลง */
+    border: 1px solid #ffd6e0; /* ลดความหนาของเส้นขอบ */
+    border-radius: 8px; /* ลดขอบโค้งลง */
+    box-sizing: border-box;
+    font-size: 0.9em; /* ลดขนาดฟอนต์ลง */
+    background-color: #fff7f0;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #ffb3c1;
+    outline: none;
+    background-color: #fff0f6;
+}
+
+button {
+    width: calc(48% - 4px);
+    padding: 8px; /* ลด padding ลง */
+    border: none;
+    border-radius: 8px; /* ลดขอบโค้งลง */
+    background-color: #ffccd5;
+    color: #4d4c7d;
+    font-size: 14px; /* ลดขนาดฟอนต์ลง */
+    cursor: pointer;
+    margin: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* ลดเงาของกล่องลง */
+}
+
+button:last-child {
+    margin-right: 0;
+    background-color: #ffd6e0;
+}
+
+button:hover {
+    background-color: #ffc2d1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* ลดเงาของกล่องลง */
+}
+
+.results {
+    margin-top: 20px; /* ลด margin ลง */
+    padding: 15px; /* ลด padding ลง */
+    background-color: #fff7f0;
+    border-radius: 8px; /* ลดขอบโค้งลง */
+    color: #4d4c7d;
+    border-left: 4px solid #ffb3c1; /* ลดขนาด border */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* ลดเงาของกล่องลง */
+}
+
+.result-item {
+    margin-bottom: 8px; /* ลด margin ลง */
+    font-size: 1em; /* ลดขนาดฟอนต์ลง */
+}
+
+.result-item::before {
+    color: #db6190;
+    margin-right: 6px; /* ลด margin ลง */
+}
